@@ -1,0 +1,836 @@
+{
+  "title": "Ephesians: Historical, Literary, and Theological Background",
+  "subtitle": "A comprehensive guide to the historical setting, literary design, theological themes, and central message of Ephesians.",
+  "sections": [
+    {
+      "id": "author-date-and-place",
+      "title": "Author, Date, and Place",
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "The Title of the Letter"
+        },
+        {
+          "type": "paragraph",
+          "text": "The title “The Epistle of Paul the Apostle to the Ephesians” comes from the letter’s traditional identification and early manuscript headings. Ephesians 1:1 addresses “the saints which are at Ephesus, and to the faithful in Christ Jesus.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Some early manuscripts omit the words “at Ephesus,” giving rise to the suggestion that the document was intended as a circular letter for several congregations in the Roman province of Asia. Yet the traditional title is ancient, most surviving manuscripts include the place name, and Ephesus was almost certainly one of the letter’s principal destinations. The most balanced conclusion is that Paul wrote to the Christian community associated with Ephesus while giving the letter a breadth that made it suitable for churches throughout the surrounding region."
+        },
+        {
+          "type": "paragraph",
+          "text": "This helps explain why Ephesians contains no long list of personal greetings even though Paul had spent considerable time in the city. He may have been addressing not one small congregation but a growing network of house churches, including many people who had joined the Christian community after his departure."
+        },
+        {
+          "type": "heading",
+          "title": "Authorship"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians presents itself directly as a letter from Paul:"
+        },
+        {
+          "type": "paragraph",
+          "text": "“Paul, an apostle of Jesus Christ by the will of God” —Ephesians 1:1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Later he describes himself as:"
+        },
+        {
+          "type": "paragraph",
+          "text": "“I Paul, the prisoner of Jesus Christ for you Gentiles” —Ephesians 3:1"
+        },
+        {
+          "type": "paragraph",
+          "text": "He also calls himself “the prisoner of the Lord” in Ephesians 4:1 and “an ambassador in bonds” in Ephesians 6:20."
+        },
+        {
+          "type": "subsection",
+          "title": "Reasons for Accepting Pauline Authorship",
+          "body": [
+            "The traditional conclusion that Paul wrote Ephesians rests on several important considerations.",
+            "First, the letter explicitly names Paul and contains personal references consistent with his ministry as the apostle to the Gentiles. It speaks of his imprisonment, suffering, preaching, prayer life, and relationship with Tychicus.",
+            "Second, the early church consistently received Ephesians as Pauline. Its Pauline authorship remained virtually unquestioned until the modern period. The letter was included among early collections of Paul’s writings and was known to early Christian writers.",
+            "Third, its theology is deeply consistent with Paul’s other letters. Its teaching concerning grace, faith, union with Christ, Jew-Gentile reconciliation, the church as Christ’s body, Christian conduct, spiritual gifts, and life in the Spirit develops themes already present in Romans, Galatians, 1 Corinthians, and Colossians."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Why Pauline Authorship Has Been Questioned",
+          "body": [
+            "Some modern scholars have questioned Pauline authorship because:",
+            "• Ephesians contains unusually long and elaborate sentences.\n• Its vocabulary differs at certain points from Paul’s other letters.\n• It has extensive verbal and theological parallels with Colossians.\n• Its tone is less personal than might be expected after Paul’s long ministry in Ephesus.\n• Its presentation of the universal church is more developed than in some earlier Pauline letters.",
+            "These observations deserve consideration, but they do not require a different author. A writer’s style may change according to subject, purpose, age, circumstances, the use of a secretary, and the difference between controversy and worship. Ephesians is frequently prayerful and doxological; Paul naturally writes differently here than when urgently correcting the Galatians or answering the Corinthians.",
+            "The general tone can also be explained if the letter addressed several house churches, including believers Paul had never personally met. The close relationship with Colossians is readily understandable if the letters were composed during the same imprisonment and carried on the same journey by Tychicus. Even a source that presents the critical case acknowledges that Pauline versatility, prayer language, and possible secretarial assistance can account for the letter’s unusual style.",
+            "The traditional identification of Paul as the author therefore remains the most natural reading of the letter’s own testimony and its early reception."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Date and Place of Writing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians was written while Paul was imprisoned:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• “The prisoner of Jesus Christ” (3:1)\n• “The prisoner of the Lord” (4:1)\n• “An ambassador in bonds” (6:20)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Although Paul experienced several imprisonments, the most likely setting is his first Roman imprisonment described in Acts 28:16–31. During this period, Paul was guarded by a soldier and wore a chain, yet he was permitted to receive visitors and proclaim the gospel from his rented dwelling. These circumstances fit the letter’s combination of imprisonment, missionary activity, access to coworkers, and relative freedom."
+        },
+        {
+          "type": "paragraph",
+          "text": "A date of approximately AD 60–62, possibly near the end of this Roman confinement, best fits the evidence. Ephesians was probably written at about the same time as Colossians and Philemon. Tychicus appears to have carried Ephesians and Colossians eastward, accompanied by Onesimus on at least part of the journey."
+        },
+        {
+          "type": "paragraph",
+          "text": "Paul may have been physically bound to a Roman guard, but he did not regard Rome as the true master of his circumstances. He calls himself not Rome’s prisoner but “the prisoner of Jesus Christ.” His suffering had been placed within Christ’s sovereign purpose."
+        }
+      ]
+    },
+    {
+      "id": "readers-and-the-ephesian-church",
+      "title": "Readers and the Ephesian Church",
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "The Original Readers"
+        },
+        {
+          "type": "paragraph",
+          "text": "The readers appear to have been predominantly Gentile Christians. Paul addresses them as those who were formerly:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• “Gentiles in the flesh” (2:11);\n• “without Christ” (2:12);\n• “aliens from the commonwealth of Israel” (2:12);\n• “strangers from the covenants of promise” (2:12);\n• people who once walked “as other Gentiles walk” (4:17)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nevertheless, Jewish believers were also part of the Christian community, and Israel’s biblical story remained fundamental to the identity of the whole church."
+        },
+        {
+          "type": "paragraph",
+          "text": "The Gentiles had not been saved to form an unrelated spiritual society detached from God’s earlier work. They had been “made nigh by the blood of Christ” (2:13), reconciled to God and to Jewish believers, and incorporated into one household and one holy temple."
+        },
+        {
+          "type": "paragraph",
+          "text": "The churches probably met in multiple homes. Such congregations could vary in social position, ethnic composition, leadership, spiritual maturity, and relationship to Paul. Over time, these differences could lead to isolation or division. Ephesians therefore calls believers across ethnic, economic, and household boundaries to recognize that they are “one body” under “one Lord.”"
+        },
+        {
+          "type": "heading",
+          "title": "The Establishment of the Ephesian Church"
+        },
+        {
+          "type": "subsection",
+          "title": "Paul’s First Visit",
+          "body": [
+            "Paul first visited Ephesus briefly near the end of his second missionary journey. Priscilla and Aquila remained there after he departed (Acts 18:18–21).",
+            "During this period, Apollos arrived in Ephesus. He was eloquent and “mighty in the scriptures,” but his understanding of the gospel was incomplete. Priscilla and Aquila “expounded unto him the way of God more perfectly” (Acts 18:24–26).",
+            "This indicates that Christian activity had begun in Ephesus before Paul’s extended ministry. The church did not originate from a single social or personal network."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Paul’s Extended Ministry",
+          "body": [
+            "Paul returned during his third missionary journey and remained in the region for approximately three years—the longest recorded period he spent ministering in one city.",
+            "His work included several stages:",
+            "• He met approximately twelve disciples who knew only the baptism of John and instructed them more fully concerning Jesus and the Holy Spirit (Acts 19:1–7).",
+            "• He taught in the synagogue for three months, “disputing and persuading the things concerning the kingdom of God” (Acts 19:8).",
+            "• When opposition intensified, he withdrew with the disciples and taught daily in the school of Tyrannus for two years (Acts 19:9–10).",
+            "• The gospel spread from Ephesus throughout the province, so that “all they which dwelt in Asia heard the word of the Lord Jesus” (Acts 19:10).",
+            "• God performed extraordinary works that exposed the impotence of magic and false exorcism (Acts 19:11–17).",
+            "• Converts openly renounced occult practices and destroyed their magical books (Acts 19:18–20).",
+            "• The growing Christian movement provoked the riot associated with Demetrius and the silversmiths (Acts 19:23–41).",
+            "The available evidence portrays a ministry that was both spiritually fruitful and socially disruptive. The gospel challenged idolatry, commerce, spiritual fear, ethnic divisions, and accepted patterns of life. A summary of the Ephesian church’s beginnings likewise connects Priscilla and Aquila, Paul’s two visits, the school of Tyrannus, the extraordinary miracles, and the silversmiths’ riot."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Paul’s Farewell to the Elders",
+          "body": [
+            "After leaving Ephesus, Paul later summoned the Ephesian elders to meet him at Miletus (Acts 20:17–38). His address reveals the depth of his relationship with the church.",
+            "He reminded them that he had:",
+            "• served with humility and tears;\n• endured opposition;\n• taught publicly and from house to house;\n• proclaimed repentance and faith;\n• declared the whole counsel of God;\n• supported himself through manual labor.",
+            "He also warned that “grievous wolves” would enter the flock and that false teachers might arise from among the believers themselves (Acts 20:29–30).",
+            "The speech provides a helpful background to Ephesians 4:11–16, where Paul emphasizes faithful leadership, sound teaching, spiritual maturity, and protection from “every wind of doctrine.”"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ephesus-and-its-world",
+      "title": "Ephesus and Its World",
+      "blocks": [
+        {
+          "type": "subsection",
+          "title": "A Major City of Roman Asia",
+          "body": [
+            "Ephesus stood on the western coast of Asia Minor, in present-day Türkiye. It was one of the leading cities of the Roman Empire and the principal city of the Roman province of Asia.",
+            "Its harbor, road system, and geographical position made it an important center of:",
+            "• commerce;\n• transportation;\n• provincial administration;\n• legal proceedings;\n• education;\n• religion;\n• communication between the eastern and western parts of the empire.",
+            "The city contained monumental public buildings, marketplaces, baths, gymnasiums, temples, and a large theater. Its wealth, architecture, and political importance gave its inhabitants a strong sense of civic pride.",
+            "This setting gives special force to Paul’s language about citizenship and belonging. Gentile believers who had once been “strangers and foreigners” were now “fellowcitizens with the saints, and of the household of God” (Ephesians 2:19). Their highest identity did not come from Roman status or Ephesian citizenship but from belonging to God’s household."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "A Religious Center",
+          "body": [
+            "Ephesus was famous for the worship of Artemis, called Diana by the Romans. Her temple was regarded as one of the great wonders of the ancient world. Artemis was closely associated with the city’s identity, protection, economy, and public celebrations.",
+            "The temple was not merely a place of private devotion. The worship of Artemis supported craftsmen, merchants, pilgrims, civic officials, festivals, and the reputation of the city. This explains the intensity of the riot recorded in Acts 19. Demetrius and the silversmiths understood that Paul’s preaching threatened more than individual religious preferences. If people abandoned idols, an entire economic and civic system would be affected.",
+            "The crowd’s repeated cry—",
+            "“Great is Diana of the Ephesians” —Acts 19:28, 34",
+            "—was therefore both religious and political. It expressed devotion to the goddess, loyalty to the city, and resistance to a gospel that declared Jesus Christ to be the true Lord."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Magic and Fear of Spiritual Powers",
+          "body": [
+            "Ephesus was also known for magical practices, spells, amulets, incantations, exorcisms, and attempts to control spiritual powers. Acts 19 describes the sons of Sceva attempting to use the name of Jesus as though it were another magical formula. Their humiliating failure demonstrated that Christ’s name could not be manipulated.",
+            "When many people believed the gospel, they publicly burned books associated with magical practices:",
+            "“Many of them also which used curious arts brought their books together, and burned them before all men.” —Acts 19:19",
+            "The enormous value of the destroyed scrolls shows how deeply such practices had penetrated society. Ephesus had a reputation not only for Artemis worship but also for spells thought to ward off or manipulate hostile spirits.",
+            "This background helps explain why Ephesians repeatedly emphasizes:",
+            "• God’s surpassing power;\n• Christ’s exaltation above every principality and power;\n• the “heavenly places”;\n• the devil and his schemes;\n• rulers and authorities;\n• spiritual warfare;\n• the whole armour of God.",
+            "Paul did not deny the reality of evil spiritual powers. Neither did he encourage fascination with them. He directed the believers’ attention to the immeasurably greater authority of the risen Christ:",
+            "“Far above all principality, and power, and might, and dominion, and every name that is named.” —Ephesians 1:21",
+            "The answer to spiritual fear was not another charm, secret formula, or ritual. It was union with the crucified, risen, and exalted Christ."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Imperial Cult",
+          "body": [
+            "Ephesus was also deeply influenced by the worship of Rome and the emperor. Temples, inscriptions, festivals, images, and public ceremonies presented Roman rulers as divinely favored bringers of peace, order, unity, and salvation. Ephesus was an important center of this imperial devotion.",
+            "Against such claims, Ephesians quietly but powerfully announces another Lord:",
+            "• Caesar does not rule the ages; Christ does.\n• Rome does not bring final peace; Christ “is our peace” (2:14).\n• The emperor does not unite the world; God gathers all things in Christ (1:10).\n• Imperial power is not supreme; all powers are placed beneath Christ’s feet (1:20–22).\n• Rome’s dominion is temporary; Christ’s reign extends through this age and the age to come.",
+            "Readers surrounded by images of Rome’s victories would have heard great comfort in the declaration that God had placed “all things under his feet.” The gospel proclaimed an authority higher than every religious, political, demonic, or social power."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "A Jewish Community",
+          "body": [
+            "Ephesus also had a substantial Jewish population and at least one synagogue. Paul’s initial preaching in the city took place in the synagogue. Jewish believers were present before his extended ministry, while the later expansion of the church brought in large numbers of Gentiles.",
+            "This mixture forms an essential part of the background to Ephesians. The church was not simply a collection of converted pagans. It brought together people divided by ethnicity, religious history, cultural customs, and social identity. Paul therefore devotes considerable attention to God’s reconciliation of Jews and Gentiles through the cross."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "circumstances-purpose-and-main-message",
+      "title": "Circumstances, Purpose, and Main Message",
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "The Circumstances Behind the Letter"
+        },
+        {
+          "type": "paragraph",
+          "text": "Unlike Galatians or 1 Corinthians, Ephesians does not appear to address one clearly defined emergency. Paul does not identify a particular false teacher, scandal, dispute, or doctrinal crisis. The letter is primarily pastoral rather than polemical."
+        },
+        {
+          "type": "paragraph",
+          "text": "Nevertheless, several needs can be discerned from its contents."
+        },
+        {
+          "type": "subsection",
+          "title": "Discouragement Over Paul’s Imprisonment",
+          "body": [
+            "Paul asks the believers not to lose heart because of his sufferings:",
+            "“Wherefore I desire that ye faint not at my tribulations for you, which is your glory.” —Ephesians 3:13",
+            "Some may have wondered how Paul could be Christ’s chosen apostle while remaining a Roman prisoner. Paul answers by locating his suffering within God’s eternal purpose. His chains did not mean that Christ had been defeated. Through his ministry, the gospel had reached the Gentiles, and even his imprisonment served that mission."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Need for Deeper Spiritual Understanding",
+          "body": [
+            "Paul repeatedly prays that the believers will understand what God has already given them:",
+            "• “the hope of his calling”;\n• “the riches of the glory of his inheritance”;\n• “the exceeding greatness of his power”;\n• the immeasurable love of Christ;\n• the fullness God intends for His people.",
+            "Their difficulty was not necessarily the absence of Christian information. They needed spiritual perception. They had to see their daily life from the perspective of God’s cosmic work in Christ."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Need for Unity",
+          "body": [
+            "Ethnic, cultural, social, and household divisions threatened the visible life of the church. Paul therefore stresses:",
+            "• one new humanity;\n• one body;\n• one Spirit;\n• one hope;\n• one Lord;\n• one faith;\n• one baptism;\n• one God and Father;\n• the unity of the Spirit;\n• every member contributing to the growth of the body.",
+            "Unity in Ephesians is not organizational uniformity. It is the shared life created by the Father, accomplished through the Son, and maintained by the Spirit."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Pressure to Return to the Surrounding Culture",
+          "body": [
+            "The believers had left a society characterized by idolatry, sexual immorality, greed, drunkenness, corrupt speech, occult practices, and fear of spiritual powers. Conversion did not remove them geographically from that environment.",
+            "Paul therefore warns them not to return to their former manner of life. They must no longer walk as the other Gentiles walk. They are to put off the old person, put on the new person, walk in love, walk as children of light, and walk wisely."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Need for Spiritual Stability",
+          "body": [
+            "The church needed mature believers who would not be:",
+            "“Tossed to and fro, and carried about with every wind of doctrine.” —Ephesians 4:14",
+            "Christ had given apostles, prophets, evangelists, pastors, and teachers to equip the whole body. Leadership was not intended to create a passive congregation but to prepare every member for ministry and bring the church toward maturity in Christ."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Reality of Spiritual Conflict",
+          "body": [
+            "Behind visible temptations and divisions stood a larger conflict:",
+            "“For we wrestle not against flesh and blood, but against principalities, against powers.” —Ephesians 6:12",
+            "Paul wanted the believers neither to deny evil powers nor to become preoccupied with them. They were to recognize Christ’s supremacy, reject magical approaches to spiritual protection, and stand clothed in God’s armour.",
+            "A historically plausible reconstruction is that the believers needed renewed confidence in God’s power and grace, a clearer understanding of their role in His purpose, greater unity, and a life consistent with their calling."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Paul’s Purpose in Writing"
+        },
+        {
+          "type": "paragraph",
+          "text": "Paul’s purpose can be summarized in one sentence:"
+        },
+        {
+          "type": "paragraph",
+          "text": "He writes to reveal God’s eternal purpose in Christ, assure believers of their new identity by grace, unite them as one holy people, and call them to live and stand in a manner worthy of that calling."
+        },
+        {
+          "type": "paragraph",
+          "text": "This purpose unfolds in several dimensions."
+        },
+        {
+          "type": "subsection",
+          "title": "To Reveal God’s Eternal Plan",
+          "body": [
+            "God’s saving work was not an improvised response to human sin. Before the foundation of the world, He purposed to create a holy people in Christ and ultimately to bring all things under Christ’s headship.",
+            "The “mystery” is not secret knowledge reserved for a spiritual elite. It is God’s formerly hidden purpose now openly revealed: believing Gentiles are “fellowheirs, and of the same body, and partakers of his promise in Christ by the gospel” (3:6)."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "To Ground Salvation Entirely in Grace",
+          "body": [
+            "Human beings are described as spiritually dead, enslaved to the course of the world, influenced by the prince of the power of the air, and subject to sinful desires. Their salvation begins with the decisive words:",
+            "“But God, who is rich in mercy” —Ephesians 2:4",
+            "Salvation is God’s gift:",
+            "“For by grace are ye saved through faith; and that not of yourselves: it is the gift of God.” —Ephesians 2:8",
+            "Good works are not the cause of salvation. They are its intended fruit. Those saved by grace are recreated in Christ “unto good works” (2:10)."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "To Explain the Church’s Identity",
+          "body": [
+            "Ephesians gives one of Scripture’s richest presentations of the church. The church is:",
+            "• Christ’s body;\n• God’s household;\n• one new humanity;\n• a holy temple;\n• the bride loved by Christ;\n• an army standing against evil.",
+            "The church is not an afterthought in God’s plan. Through the reconciled community, God makes His wisdom known “unto the principalities and powers in heavenly places” (3:10).",
+            "A united church is therefore part of God’s answer to the great controversy between good and evil. Its very existence demonstrates that Christ can overcome the divisions created and intensified by sin."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "To Reconcile Jews and Gentiles",
+          "body": [
+            "Christ did not merely reconcile separate individuals to God. Through the cross He also created peace between divided peoples:",
+            "“For he is our peace, who hath made both one.” —Ephesians 2:14",
+            "The goal is not Gentiles becoming culturally Jewish or Jews becoming culturally Gentile. Christ creates “one new man” in Himself. Both receive access to the Father “by one Spirit” (2:18)."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "To Connect Doctrine with Daily Life",
+          "body": [
+            "Ephesians does not permit theology to remain abstract. Chapters 1–3 describe what God has done; chapters 4–6 show how those realities must reshape conduct.",
+            "Because believers have been chosen in Christ, they must walk in holiness. Because they are one body, they must preserve unity. Because they have received grace, they must show grace. Because Christ has forgiven them, they must forgive. Because they are light in the Lord, they must walk as children of light. Because Christ loved the church, Christian households must be governed by sacrificial love. Because Christ has defeated the powers, believers must stand in His strength.",
+            "The letter brings together Christian doctrine and Christian duty, the new life God gives, the new community He forms, the new standards He establishes, and the new relationships that flow from belonging to Christ."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "literary-character-and-biblical-foundations",
+      "title": "Literary Character and Biblical Foundations",
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "Ephesians and Colossians"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians has a particularly close relationship with Colossians. The two letters share:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• similar openings and conclusions;\n• Tychicus as messenger;\n• language concerning Christ’s headship;\n• the church as Christ’s body;\n• the mystery of God;\n• principalities and powers;\n• the old and new person;\n• household relationships;\n• prayer and Christian speech;\n• the movement from doctrine to conduct."
+        },
+        {
+          "type": "paragraph",
+          "text": "Both were likely composed during the same period of imprisonment and dispatched toward the same general region."
+        },
+        {
+          "type": "paragraph",
+          "text": "Yet the letters have distinct emphases."
+        },
+        {
+          "type": "paragraph",
+          "text": "Colossians responds more directly to erroneous teaching and emphasizes the sufficiency and supremacy of Christ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians has a broader, more contemplative purpose. It emphasizes God’s eternal plan, the unity of the church, the reconciliation of Jews and Gentiles, and the worthy life of God’s new humanity."
+        },
+        {
+          "type": "paragraph",
+          "text": "Colossians declares that Christ is sufficient against rival teachings. Ephesians shows how Christ’s supremacy creates and shapes a reconciled people."
+        },
+        {
+          "type": "heading",
+          "title": "Literary Character"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians is unmistakably a letter, but it often sounds like a sermon, prayer, confession of faith, or act of worship."
+        },
+        {
+          "type": "paragraph",
+          "text": "It contains:"
+        },
+        {
+          "type": "paragraph",
+          "text": "• an opening greeting;\n• blessing and thanksgiving;\n• intercessory prayers;\n• doctrinal exposition;\n• pastoral exhortation;\n• household instruction;\n• final personal information;\n• a concluding benediction."
+        },
+        {
+          "type": "paragraph",
+          "text": "The first half is especially prayerful. Paul frequently moves from speaking about God to speaking directly to God. Teaching becomes worship, and worship becomes teaching."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians also contains unusually long sentences. In the Greek text, Ephesians 1:3–14 is one extended sentence of praise. English translations divide it for readability, but the original form communicates a sense of overflowing wonder. One blessing leads to another as Paul considers election, adoption, redemption, forgiveness, revelation, inheritance, and the sealing of the Spirit."
+        },
+        {
+          "type": "paragraph",
+          "text": "The letter broadly moves from doctrinal celebration in chapters 1–3 to practical Christian living in chapters 4–6."
+        },
+        {
+          "type": "subsection",
+          "title": "The Great Turning Point",
+          "body": [
+            "The major transition occurs in Ephesians 4:1:",
+            "“I therefore, the prisoner of the Lord, beseech you that ye walk worthy of the vocation wherewith ye are called.”",
+            "The word “therefore” joins Christian conduct to God’s saving work. Paul does not say, “Walk worthily so that God will call and save you.” He says, in effect, “Because God has called and saved you, walk in a way consistent with that grace.”",
+            "Grace is the foundation; obedience is the response."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Important Repeated Expressions",
+          "body": [
+            "This theme is developed throughout the section that follows."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "“In Christ”",
+          "body": [
+            "The blessings of salvation are found “in Christ,” “in him,” or “in the beloved.” Election, redemption, forgiveness, inheritance, reconciliation, and new creation cannot be separated from union with Christ."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "“Walk”",
+          "body": [
+            "“Walk” describes the direction and character of life:",
+            "• once walking according to this world—2:2;\n• created to walk in good works—2:10;\n• walking worthy of the calling—4:1;\n• no longer walking as the Gentiles—4:17;\n• walking in love—5:2;\n• walking as children of light—5:8;\n• walking wisely—5:15."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "“One”",
+          "body": [
+            "The repeated word “one” emphasizes the unity created by God: one body, Spirit, hope, Lord, faith, baptism, and Father."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "“Heavenly Places”",
+          "body": [
+            "This expression appears repeatedly in Ephesians. It refers to the spiritual sphere in which:",
+            "• believers receive spiritual blessings;\n• Christ reigns;\n• believers are represented as seated with Christ;\n• God’s wisdom is displayed;\n• spiritual conflict occurs.",
+            "The heavenly places are not portrayed as remote from earthly life. Events in heaven and events in the church are part of the same cosmic conflict."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "“Mystery”",
+          "body": [
+            "The mystery is God’s purpose, once hidden but now revealed in Christ—especially the full inclusion of believing Gentiles in one body with believing Jews."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "“Fullness”",
+          "body": [
+            "God intends the church to grow toward the fullness of Christ. Salvation is not merely escape from punishment; it is restoration to spiritual maturity and Christlike character."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Old Testament Foundations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ephesians contains fewer formal quotations than some Pauline letters, but its thought is deeply rooted in the Old Testament."
+        },
+        {
+          "type": "subsection",
+          "title": "Creation",
+          "body": [
+            "The language of the “new man” and being “created in Christ Jesus” draws upon Genesis. Salvation is an act of re-creation. God restores His image in humanity and forms a renewed people."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Israel and the Covenants",
+          "body": [
+            "Gentile believers had once been strangers to “the covenants of promise” (2:12). Their salvation brings them into the blessings God promised through Israel’s story rather than creating an unrelated way of salvation."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Temple",
+          "body": [
+            "The church as a holy temple draws upon the tabernacle and temple as places of God’s presence. In Christ, God now builds Jewish and Gentile believers together as His Spirit-filled dwelling."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Royal Psalms",
+          "body": [
+            "Paul’s presentation of Christ’s exaltation draws especially upon Psalm 110:1 and Psalm 8:6. Christ is seated at God’s right hand, and all things are placed beneath His feet."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Isaiah",
+          "body": [
+            "The proclamation of peace to those “far off” and “nigh” reflects Isaiah 57:19. The armour of God in Ephesians 6 draws strongly upon Isaiah’s description of God and His Messiah clothed with righteousness and salvation."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Psalm 68",
+          "body": [
+            "Ephesians 4:8 uses Psalm 68:18 to portray the victorious, ascended Christ distributing gifts to His people."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Genesis and Marriage",
+          "body": [
+            "Ephesians 5:31 cites Genesis 2:24. The creation pattern of marriage becomes a window through which Paul contemplates the profound relationship between Christ and His church."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "major-images-and-theological-themes",
+      "title": "Major Images and Theological Themes",
+      "blocks": [
+        {
+          "type": "heading",
+          "title": "Major Images of the Church"
+        },
+        {
+          "type": "subsection",
+          "title": "The Body of Christ",
+          "body": [
+            "Christ is the head, and the church is His body. Every member receives grace and a function. Maturity occurs as every part works properly and the body builds itself up in love (4:11–16).",
+            "This image excludes both individualism and spiritual passivity. No believer possesses every gift, and no believer is unnecessary."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Household of God",
+          "body": [
+            "Former strangers are now members of God’s family (2:19). This household identity challenges ethnic pride, class distinctions, and social isolation."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Holy Temple",
+          "body": [
+            "Jewish and Gentile believers are being built together:",
+            "“For an habitation of God through the Spirit.” —Ephesians 2:22",
+            "This was especially striking in a city dominated by the temple of Artemis. The true dwelling of God was not a magnificent pagan structure. God was dwelling by His Spirit in a people reconciled through Christ."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Bride of Christ",
+          "body": [
+            "Christ loved the church and gave Himself for her (5:25). His purpose is to sanctify and present her to Himself in purity and glory.",
+            "The image reveals the tenderness, sacrifice, and transforming purpose of Christ’s love. It also establishes the pattern for Christian marriage: authority must never be separated from self-giving love."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Army of God",
+          "body": [
+            "The church is called to stand against the devil’s schemes. Yet its weapons are not violence, coercion, political domination, or magical protection. Its armour consists of truth, righteousness, the gospel of peace, faith, salvation, the Word of God, and persevering prayer."
+          ]
+        },
+        {
+          "type": "heading",
+          "title": "Major Theological Themes"
+        },
+        {
+          "type": "subsection",
+          "title": "The Sovereign Purpose of God",
+          "body": [
+            "Ephesians begins before the foundation of the world and moves toward the fullness of time. Human history is not meaningless. God is working toward the restoration and unification of creation under Christ."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Election in Christ",
+          "body": [
+            "God chose His people “in him” before the foundation of the world (1:4). The emphasis falls upon Christ and God’s purpose to create a holy people through union with Him.",
+            "The passage should not be turned into fatalism. The chosen community is chosen for holiness, adoption, witness, and the praise of God’s glory. Throughout chapters 4–6, believers are treated as morally responsible people who must respond to grace, reject sin, maintain unity, and stand faithfully."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Redemption Through Christ’s Blood",
+          "body": [
+            "Redemption and forgiveness come “through his blood” (1:7). The cross is the basis both of peace with God and peace between divided human communities."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "Salvation by Grace Through Faith",
+          "body": [
+            "Ephesians 2:8–10 holds grace, faith, and works in their proper order:",
+            "• salvation originates in grace;\n• it is received through faith;\n• it is not earned by human works;\n• the saved person is recreated for good works.",
+            "The gospel neither teaches salvation by obedience nor salvation without obedience. Good works do not purchase salvation; they reveal the transforming purpose of grace."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Moral Law and Ephesians 2:15",
+          "body": [
+            "Ephesians 2:15 speaks of Christ abolishing “the law of commandments contained in ordinances.” This should not be interpreted as the abolition of God’s moral will.",
+            "In context, Paul is explaining how Christ removed the barrier that separated Jews and Gentiles. The law, considered in its covenantal regulations and boundary-marking ordinances, had become a dividing wall within sinful human experience. Through the cross, Christ removed the condemnation and hostility associated with that division and created one reconciled people.",
+            "Chapters 4–6 then reaffirm moral obligations concerning truthfulness, purity, honest labor, kindness, forgiveness, marriage, family responsibility, obedience, and worship. Grace does not destroy holiness; it creates a people capable of walking in it."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Holy Spirit",
+          "body": [
+            "The Spirit:",
+            "• seals believers after they hear and believe the gospel;\n• serves as the earnest or pledge of the inheritance;\n• gives access to the Father;\n• makes the church God’s dwelling;\n• strengthens the inner person;\n• creates unity;\n• distributes life through the body;\n• can be grieved;\n• fills believers for worship, thanksgiving, and Christ-centered relationships;\n• empowers prayer in spiritual conflict.",
+            "The sealing of the Spirit gives genuine assurance, but it is not permission for presumption. The same believers are warned not to grieve the Spirit and are repeatedly called to faithful, holy living."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Church and the Cosmic Conflict",
+          "body": [
+            "The church’s existence has significance beyond what human eyes can see. Through a reconciled people, God makes His wisdom known to rulers and authorities in heavenly places (3:10).",
+            "When former enemies worship together, forgive one another, speak truth, live purely, care for the vulnerable, and remain faithful under pressure, they demonstrate that Christ’s victory is real."
+          ]
+        },
+        {
+          "type": "subsection",
+          "title": "The Already and the Not Yet",
+          "body": [
+            "Believers already possess every spiritual blessing in Christ. They have been raised and seated with Him in the heavenly places. Yet salvation has not reached its final consummation.",
+            "They still await:",
+            "• the full redemption of God’s possession;\n• the day of redemption;\n• the completed inheritance;\n• the final establishment of Christ’s kingdom;\n• the gathering of all things under Christ.",
+            "Ephesians therefore combines assurance with expectancy. Christ has decisively triumphed, but the conflict continues until God’s purpose reaches its final completion. The letter preserves both present blessing and future hope."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-structure-of-ephesians",
+      "title": "The Structure of Ephesians",
+      "blocks": [
+        {
+          "type": "comparison",
+          "title": "Structure of Ephesians overview",
+          "headers": [
+            "Passage",
+            "Main Emphasis"
+          ],
+          "rows": [
+            [
+              "1:1–2",
+              "Greeting: grace and peace"
+            ],
+            [
+              "1:3–14",
+              "Spiritual blessings in Christ"
+            ],
+            [
+              "1:15–23",
+              "Prayer for spiritual understanding and revelation of Christ’s supremacy"
+            ],
+            [
+              "2:1–10",
+              "From death to life by grace"
+            ],
+            [
+              "2:11–22",
+              "Jew and Gentile reconciled as one people and one temple"
+            ],
+            [
+              "3:1–13",
+              "Paul’s ministry and the revealed mystery"
+            ],
+            [
+              "3:14–21",
+              "Prayer for inner strength, love, and fullness"
+            ],
+            [
+              "4:1–16",
+              "Unity, gifts, ministry, and maturity"
+            ],
+            [
+              "4:17–32",
+              "Putting off the old life and putting on the new"
+            ],
+            [
+              "5:1–21",
+              "Walking in love, light, wisdom, and the Spirit"
+            ],
+            [
+              "5:22–33",
+              "Marriage in the light of Christ and the church"
+            ],
+            [
+              "6:1–9",
+              "Children, parents, servants, and masters under Christ’s lordship"
+            ],
+            [
+              "6:10–20",
+              "The whole armour of God"
+            ],
+            [
+              "6:21–24",
+              "Tychicus, final greetings, peace, love, faith, and grace"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "The broad movement is from what God has done in Christ to how God’s people must live because of it. Paul begins with praise, moves through prayer and exposition, and concludes with a call to stand."
+        },
+        {
+          "type": "heading",
+          "title": "The Book at a Glance"
+        },
+        {
+          "type": "comparison",
+          "title": "Ephesians at a glance",
+          "headers": [
+            "Detail",
+            "Information"
+          ],
+          "rows": [
+            [
+              "Author",
+              "The apostle Paul"
+            ],
+            [
+              "Date",
+              "Approximately AD 60–62"
+            ],
+            [
+              "Place of writing",
+              "Most likely Rome, during Paul’s first Roman imprisonment"
+            ],
+            [
+              "Original readers",
+              "Christians in Ephesus, probably including a network of house churches in and around the city; the letter may also have circulated among neighboring churches in Roman Asia"
+            ],
+            [
+              "Messenger",
+              "Tychicus"
+            ],
+            [
+              "Primary audience",
+              "Predominantly Gentile believers, united with Jewish believers in Christ"
+            ],
+            [
+              "Central theme",
+              "God’s eternal purpose is to unite all things in Christ, creating through His grace one reconciled, holy people who walk worthy of their calling and stand against the powers of evil"
+            ],
+            [
+              "Key passage",
+              "“That in the dispensation of the fulness of times he might gather together in one all things in Christ” (Ephesians 1:10)"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "the-message-in-its-historical-setting",
+      "title": "The Message in Its Historical Setting",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "To believers living beneath the shadow of Artemis’s temple, Paul declared that the church was God’s true temple."
+        },
+        {
+          "type": "paragraph",
+          "text": "To people surrounded by spells and fear of spirits, he declared that Christ was exalted above every principality and power."
+        },
+        {
+          "type": "paragraph",
+          "text": "To citizens proud of Roman status, he declared that believers were fellow citizens in God’s kingdom."
+        },
+        {
+          "type": "paragraph",
+          "text": "To a society divided by ethnicity, class, sex, legal status, and household rank, he proclaimed one new humanity in Christ."
+        },
+        {
+          "type": "paragraph",
+          "text": "To an empire that celebrated Caesar as the source of peace and unity, he announced that Christ alone is our peace and that God will unite all things in Him."
+        },
+        {
+          "type": "paragraph",
+          "text": "To believers tempted by their former way of life, he called them to walk in holiness, love, light, wisdom, and the fullness of the Spirit."
+        },
+        {
+          "type": "paragraph",
+          "text": "To Christians discouraged by Paul’s chains, he revealed a throne above Rome and a Lord whose purpose no prison could defeat."
+        },
+        {
+          "type": "paragraph",
+          "text": "To a church facing invisible opposition, he gave neither magical formulas nor political weapons, but the whole armour of God."
+        },
+        {
+          "type": "heading",
+          "title": "Central Message"
+        },
+        {
+          "type": "paragraph",
+          "text": "The God and Father of our Lord Jesus Christ is carrying out His eternal purpose through His Son. By grace He raises sinners from spiritual death, reconciles Jews and Gentiles through the cross, forms them into one Spirit-filled body, and calls this new humanity to display His character before the world and the heavenly powers. Therefore, believers must walk worthy of their calling, live together in love and holiness, and stand firm in the victory and strength of Christ."
+        }
+      ]
+    }
+  ]
+}
