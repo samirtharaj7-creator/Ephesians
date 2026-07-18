@@ -10,8 +10,12 @@
     "build": "PATH=./bin:$PATH NEXT_TEST_WASM_DIR=./node_modules/@next/swc-wasm-nodejs next build --webpack",
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
+    "validate:content": "node scripts/validate-content.mjs",
+    "validate:background": "node scripts/validate-background.mjs",
+    "validate:theology": "node scripts/validate-theology.mjs",
+    "validate": "npm run validate:content && npm run validate:background && npm run validate:theology",
     "verify:deployment": "node scripts/verify-deployment.mjs",
-    "deploy:check": "npm run typecheck && npm run lint && npm run build && npm run verify:deployment",
+    "deploy:check": "npm run validate && npm run typecheck && npm run lint && npm run build && npm run verify:deployment",
     "reset:intake": "node generate-ephesians-intake.mjs"
   },
   "dependencies": {

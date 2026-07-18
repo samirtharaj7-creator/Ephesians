@@ -1647,6 +1647,19 @@ body[data-ephesians-route="home"] .home-section-split > p {
   line-height: 1.65;
 }
 
+.articles-empty-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  min-height: 44px;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.55rem;
+  background: var(--primary);
+  color: var(--primary-foreground);
+  font-weight: 700;
+}
+
 .article-list-card {
   display: flex;
   min-height: clamp(17rem, 26vw, 22rem);
