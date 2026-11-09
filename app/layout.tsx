@@ -9,6 +9,7 @@ import "./global-shell.css";
 import "./ephesians-theme.css";
 import "./background-content.css";
 import "./ephesians-reader.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: {
@@ -62,6 +63,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         <SiteHeader />
         {children}
         <GlobalFooter />
+        <Script src="https://mybibleexplorer.com/library.js" strategy="afterInteractive" />
       </body>
     </html>
   );
