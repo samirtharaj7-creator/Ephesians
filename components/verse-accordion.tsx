@@ -2,7 +2,7 @@
 
 import type { CSSProperties } from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { BookOpen, Library, List, Minus, Plus } from "lucide-react";
+import { BookOpen, ChevronDown, Library, List, Minus, Plus } from "lucide-react";
 import { ScriptureReferenceChip } from "@/components/scripture-reference-chip";
 import type { ChapterContent, VerseEntry } from "@/lib/schemas";
 import type { ReferencePreviewMap } from "@/lib/reference-previews";
@@ -51,9 +51,11 @@ export function ChapterStudy({
 }) {
   const firstVerse = chapter.verses[0]?.verse ?? "";
   const [selectedVerseRef, setSelectedVerseRef] = useState(firstVerse);
+  const [expandedCompactVerseRef, setExpandedCompactVerseRef] = useState<string | null>(null);
   const [scriptureLevel, setScriptureLevel] = useState(0);
   const [notesLevel, setNotesLevel] = useState(0);
   const [isMobileReader, setIsMobileReader] = useState(false);
+  const [isCompactReader, setIsCompactReader] = useState(false);
   const readerRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -64,9 +66,12 @@ export function ChapterStudy({
         ? chapter.verses[Number(simpleVerse[1]) - 1]
         : chapter.verses.find((verse) => slugify(verse.verse) === hash);
       if (match) {
+        const compactReader = window.matchMedia("(max-width: 980px)").matches;
         setSelectedVerseRef(match.verse);
+        setExpandedCompactVerseRef(compactReader ? match.verse : null);
         window.requestAnimationFrame(() => {
-          scrollVerseButtonIntoPane(match.verse, "auto");
+          if (compactReader) getVerseButtonElement(match.verse)?.scrollIntoView({ block: "nearest" });
+          else scrollVerseButtonIntoPane(match.verse, "auto");
         });
       }
     }
@@ -102,6 +107,23 @@ export function ChapterStudy({
     mediaQuery.addEventListener("change", syncReaderWidth);
     return () => mediaQuery.removeEventListener("change", syncReaderWidth);
   }, []);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 980px)");
+
+    function handleCompactReaderChange(event: MediaQueryListEvent) {
+      setIsCompactReader(event.matches);
+      setExpandedCompactVerseRef(event.matches ? selectedVerseRef : null);
+    }
+
+    function syncInitialCompactReader() {
+      setIsCompactReader(mediaQuery.matches);
+    }
+
+    syncInitialCompactReader();
+    mediaQuery.addEventListener("change", handleCompactReaderChange);
+    return () => mediaQuery.removeEventListener("change", handleCompactReaderChange);
+  }, [selectedVerseRef]);
 
   useEffect(() => {
     const reader = readerRef.current;
@@ -232,8 +254,26 @@ export function ChapterStudy({
     return sections;
   }, [bookName, chapter.outline]);
 
-  function selectVerse(verse: PublicVerseEntry) {
+  function selectVerse(verse: PublicVerseEntry, trigger: HTMLButtonElement) {
     setSelectedVerseRef(verse.verse);
+    if (isCompactReader) {
+      const currentScrollTop = window.scrollY;
+      const switchingOpenVerse = Boolean(
+        expandedCompactVerseRef && expandedCompactVerseRef !== verse.verse
+      );
+      setExpandedCompactVerseRef((current) => current === verse.verse ? null : verse.verse);
+      if (switchingOpenVerse) {
+        window.requestAnimationFrame(() => {
+          trigger.scrollIntoView({ block: "nearest" });
+        });
+      } else {
+        window.requestAnimationFrame(() => {
+          window.scrollTo({ top: currentScrollTop, behavior: "auto" });
+        });
+      }
+    } else {
+      setExpandedCompactVerseRef(null);
+    }
     if (typeof window !== "undefined") {
       const verseNumber = verse.verse.match(/:(\d+)$/)?.[1];
       window.history.replaceState(null, "", verseNumber ? `#v${verseNumber}` : `#${slugify(verse.verse)}`);
@@ -247,39 +287,6 @@ export function ChapterStudy({
   const scriptureDesktopFontSize = clampNumber(20 + scriptureLevel * 2, 18, 30);
   const notesFontSize = clampNumber(18 + notesLevel * 2, 16, 24);
   const chapterTheme = chapter.title || chapter.themes[0] || "";
-
-  function renderVerseNotes(verse: PublicVerseEntry, mode: "desktop" | "mobile") {
-    const hasDetailedExplanation = Boolean(verse.commentary.detailedExplanation.trim());
-    const hasStudyLinks = verse.crossReferences.length > 0 || verse.wordNotes.length > 0;
-    const articleClassName = hasDetailedExplanation || hasStudyLinks
-      ? "exposition-card"
-      : "exposition-card exposition-card-blank";
-
-    return (
-      <article
-        className={articleClassName}
-        id={mode === "mobile" ? `${slugify(verse.verse)}-notes` : undefined}
-      >
-        <div className="exposition-card-heading">
-          <h2>{verse.verse}</h2>
-        </div>
-        {hasDetailedExplanation ? (
-          <DetailedExplanation value={verse.commentary.detailedExplanation} />
-        ) : (
-          <div className="commentary-blank-space" aria-label={`Blank study notes for ${verse.verse}`} />
-        )}
-        {hasStudyLinks ? (
-          <VerseStudyCard
-            key={verse.verse}
-            crossReferences={verse.crossReferences}
-            referencePreviews={referencePreviews}
-            wordNotes={verse.wordNotes}
-          />
-        ) : null}
-      </article>
-    );
-  }
-
   return (
     <section
       ref={readerRef}
@@ -326,6 +333,8 @@ export function ChapterStudy({
           <div className="scripture-list">
             {chapter.verses.map((verse, index) => {
               const outlineSection = outlineByStartVerse.get(verse.verse);
+              const expanded = isCompactReader && expandedCompactVerseRef === verse.verse;
+              const notesPanelId = `${slugify(verse.verse)}-study-notes`;
 
               return (
                 <div className="scripture-list-item" key={verse.verse}>
@@ -340,12 +349,37 @@ export function ChapterStudy({
                     index={index + 1}
                     verse={verse}
                     active={verse.verse === selectedVerse.verse}
-                    onSelect={() => selectVerse(verse)}
+                    expanded={expanded}
+                    notesPanelId={notesPanelId}
+                    compact={isCompactReader}
+                    onSelect={(trigger) => selectVerse(verse, trigger)}
                   />
-                  {verse.verse === selectedVerse.verse ? (
-                    <div className="mobile-verse-notes" role="region" aria-label={`Study notes for ${verse.verse}`}>
-                      {renderVerseNotes(verse, "mobile")}
-                    </div>
+                  {expanded ? (
+                    <section
+                      id={notesPanelId}
+                      className="mobile-verse-notes"
+                      aria-label={`Study notes for ${verse.verse}`}
+                    >
+                      <div className="mobile-verse-notes-toolbar no-print">
+                        <div className="reader-pane-kicker">
+                          <List className="h-5 w-5" />
+                          Study Notes
+                        </div>
+                        <FontScaleControls
+                          label={`Study Notes text size controls for ${verse.verse}`}
+                          decreaseLabel="Decrease Study Notes text size"
+                          increaseLabel="Increase Study Notes text size"
+                          onDecrease={() => setNotesLevel((value) => Math.max(NOTES_MIN_LEVEL, value - 1))}
+                          onIncrease={() => setNotesLevel((value) => Math.min(NOTES_MAX_LEVEL, value + 1))}
+                        />
+                      </div>
+                      <div className="mobile-verse-notes-body">
+                        <VerseNotesArticle
+                          verse={verse}
+                          referencePreviews={referencePreviews}
+                        />
+                      </div>
+                    </section>
                   ) : null}
                 </div>
               );
@@ -370,7 +404,10 @@ export function ChapterStudy({
         </div>
         <div className="commentary-pane-body">
           <div className="commentary-shell">
-            {renderVerseNotes(selectedVerse, "desktop")}
+            <VerseNotesArticle
+              verse={selectedVerse}
+              referencePreviews={referencePreviews}
+            />
           </div>
         </div>
       </aside>
@@ -439,23 +476,67 @@ function scrollVerseButtonIntoPane(verse: string, behavior: ScrollBehavior) {
   });
 }
 
-function VerseButton({ index, verse, active, onSelect }: { index: number; verse: PublicVerseEntry; active: boolean; onSelect: () => void }) {
-  const verseId = slugify(verse.verse);
-
+function VerseButton({
+  index,
+  verse,
+  active,
+  expanded,
+  notesPanelId,
+  compact,
+  onSelect
+}: {
+  index: number;
+  verse: PublicVerseEntry;
+  active: boolean;
+  expanded: boolean;
+  notesPanelId: string;
+  compact: boolean;
+  onSelect: (trigger: HTMLButtonElement) => void;
+}) {
   return (
     <button
-      aria-controls={`${verseId}-notes`}
-      aria-expanded={active}
-      data-verse-id={verseId}
+      data-verse-id={slugify(verse.verse)}
       className={active ? "scripture-card scripture-card-active" : "scripture-card"}
-      onClick={onSelect}
+      aria-controls={compact && expanded ? notesPanelId : undefined}
+      aria-expanded={compact ? expanded : undefined}
+      onClick={(event) => onSelect(event.currentTarget)}
       type="button"
     >
       <span className="verse-number">{index}</span>
       <span className="verse-copy">
         {verse.bibleText || "Verse text unavailable."}
       </span>
+      <ChevronDown className="verse-dropdown-icon" aria-hidden="true" />
     </button>
+  );
+}
+
+function VerseNotesArticle({
+  verse,
+  referencePreviews
+}: {
+  verse: PublicVerseEntry;
+  referencePreviews: ReferencePreviewMap;
+}) {
+  const hasDetailedExplanation = Boolean(verse.commentary.detailedExplanation.trim());
+
+  return (
+    <article className="exposition-card">
+      <div className="exposition-card-heading">
+        <h2>{verse.verse}</h2>
+      </div>
+      {hasDetailedExplanation ? (
+        <DetailedExplanation value={verse.commentary.detailedExplanation} />
+      ) : (
+        <div className="commentary-blank-space" aria-label={`Blank study notes for ${verse.verse}`} />
+      )}
+      <VerseStudyCard
+        key={verse.verse}
+        crossReferences={verse.crossReferences}
+        referencePreviews={referencePreviews}
+        wordNotes={verse.wordNotes}
+      />
+    </article>
   );
 }
 
@@ -487,48 +568,52 @@ function VerseStudyCard({
         <Library className="h-4 w-4" />
         Study Links
       </div>
-      <div className="verse-study-grid">
-        {hasReferences ? (
-          <div className="study-card-section">
-            <h3>Cross References</h3>
-            <div className="reference-chip-list">
-              {crossReferences.map((reference) => (
-                <ScriptureReferenceChip
-                  className="reference-chip"
-                  key={reference}
-                  preview={referencePreviews[reference]}
-                  reference={reference}
-                />
-              ))}
+      {hasReferences || hasWordNotes ? (
+        <div className="verse-study-grid">
+          {hasReferences ? (
+            <div className="study-card-section">
+              <h3>Cross References</h3>
+              <div className="reference-chip-list">
+                {crossReferences.map((reference) => (
+                  <ScriptureReferenceChip
+                    className="reference-chip"
+                    key={reference}
+                    preview={referencePreviews[reference]!}
+                    reference={reference}
+                  />
+                ))}
+              </div>
             </div>
-          </div>
-        ) : null}
-        {hasWordNotes ? (
-          <div className="study-card-section study-card-section-wide">
-            <h3>Word / Phrase Notes</h3>
-            <div className="word-note-list">
-              {wordNotes.map((note) => (
-                <article className="word-note" key={`${note.term}-${note.scriptureReferences.join("-")}`}>
-                  <div className="word-note-title">{note.term}</div>
-                  <p>{note.explanation}</p>
-                  {note.scriptureReferences.length > 0 ? (
-                    <div className="word-reference-list" aria-label={`${note.term} Scripture references`}>
-                      {note.scriptureReferences.map((reference) => (
-                        <ScriptureReferenceChip
-                          className="word-reference-chip"
-                          key={`${note.term}-${reference}`}
-                          preview={referencePreviews[reference]}
-                          reference={reference}
-                        />
-                      ))}
-                    </div>
-                  ) : null}
-                </article>
-              ))}
+          ) : null}
+          {hasWordNotes ? (
+            <div className="study-card-section study-card-section-wide">
+              <h3>Word / Phrase Notes</h3>
+              <div className="word-note-list">
+                {wordNotes.map((note) => (
+                  <article className="word-note" key={`${note.term}-${note.scriptureReferences.join("-")}`}>
+                    <div className="word-note-title">{note.term}</div>
+                    <p>{note.explanation}</p>
+                    {note.scriptureReferences.length > 0 ? (
+                      <div className="word-reference-list" aria-label={`${note.term} Scripture references`}>
+                        {note.scriptureReferences.map((reference) => (
+                          <ScriptureReferenceChip
+                            className="word-reference-chip"
+                            key={`${note.term}-${reference}`}
+                            preview={referencePreviews[reference]!}
+                            reference={reference}
+                          />
+                        ))}
+                      </div>
+                    ) : null}
+                  </article>
+                ))}
+              </div>
             </div>
-          </div>
-        ) : null}
-      </div>
+          ) : null}
+        </div>
+      ) : (
+        <p className="study-card-empty">Study links are ready to be added for this verse.</p>
+      )}
     </section>
   );
 }
